@@ -7,7 +7,7 @@ workspace-1:
       project_name: project-1
       tag_names:
         - project-1
-      description: "This is a test workspace"
+      description: "This is a test workspace using fleejy/terraform-tfe-platform-testrepo"
       working_directory: ""
       file_triggers_enabled: true
       trigger_patterns:
