@@ -1,4 +1,4 @@
-workspace-1:
+terraform-tfe-platform-testrepo:
   workspace_config:
     arguments:
       team_access:
