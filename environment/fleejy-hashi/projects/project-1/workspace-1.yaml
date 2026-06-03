@@ -2,7 +2,7 @@ workspace-1:
   workspace_config:
     arguments:
       team_access:
-        team-1: {}
+        team-A: {}
       workspace_name: workspace-1
       project_name: project-1
       tag_names:
