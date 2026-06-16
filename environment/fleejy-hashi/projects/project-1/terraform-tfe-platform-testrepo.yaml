@@ -20,4 +20,4 @@ terraform-tfe-platform-testrepo:
         - "*.tf"
       vcs_repo:
         arguments:
-          identifier: fleejy/terraform-tfe-platform-testrepo0
+          identifier: fleejy/terraform-tfe-platform-testrepo
