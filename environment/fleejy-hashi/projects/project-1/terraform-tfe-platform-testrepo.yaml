@@ -2,7 +2,13 @@ terraform-tfe-platform-testrepo:
   workspace_config:
     arguments:
       team_access:
-        team-A: {}
+        team-A:
+          runs: apply
+          variables: read
+          state_versions: read-outputs
+          sentinel_mocks: none
+          workspace_locking: true
+          run_tasks: false
       workspace_name: terraform-tfe-platform-testrepo
       project_name: project-1
       tag_names:
@@ -14,4 +20,4 @@ terraform-tfe-platform-testrepo:
         - "*.tf"
       vcs_repo:
         arguments:
-          identifier: fleejy/terraform-tfe-platform-testrepo
+          identifier: fleejy/terraform-tfe-platform-testrepo0
