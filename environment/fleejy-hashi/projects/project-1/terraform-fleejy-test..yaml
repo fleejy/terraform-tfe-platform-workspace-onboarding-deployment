@@ -10,9 +10,9 @@ terraform-fleejy-test:
           workspace_locking: true
           run_tasks: false
       workspace_name: terraform-fleejy-test
-      project_name: agent-sandbox
+      project_name: project-1
       tag_names:
-        - agent-sandbox
+        - project-1
       description: "This is a workspace using fleejy/terraform-fleejy-test"
       working_directory: ""
       file_triggers_enabled: true
