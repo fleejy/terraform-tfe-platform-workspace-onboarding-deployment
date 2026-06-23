@@ -1,0 +1,23 @@
+terraform-agentic-workflows:
+  workspace_config:
+    arguments:
+      team_access:
+        team-human:
+          runs: apply
+          variables: read
+          state_versions: read-outputs
+          sentinel_mocks: none
+          workspace_locking: true
+          run_tasks: false
+      workspace_name: terraform-agentic-workflows
+      project_name: agent-sandbox
+      tag_names:
+        - agent-sandbox
+      description: "This is a workspace using fleejy/terraform-agentic-workflows"
+      working_directory: ""
+      file_triggers_enabled: true
+      trigger_patterns:
+        - "*.tf"
+      vcs_repo:
+        arguments:
+          identifier: fleejy/terraform-agentic-workflows
